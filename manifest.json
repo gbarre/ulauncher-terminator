@@ -1,10 +1,18 @@
 {
-  "id": "ulauncher-terminator",
+  "required_api_version": "2",
   "name": "Ulauncher Terminator",
-  "description": "Ouvrir Terminator dans un dossier spécifique",
-  "developer_name": "gbarre2",
+  "description": "Open Terminator in a specific folder",
+  "developer_name": "Guillaume Barré",
   "icon": "images/icon.png",
   "options": {
-    "query_keyword": "term"
-  }
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "ulauncher_termnator_kw",
+      "type": "keyword",
+      "name": "Ulauncher Terminator Keyword",
+      "default_value": "term"
+    }
+  ]
 }
