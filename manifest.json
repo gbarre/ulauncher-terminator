@@ -1,0 +1,10 @@
+{
+  "id": "ulauncher-terminator",
+  "name": "Ulauncher Terminator",
+  "description": "Ouvrir Terminator dans un dossier spécifique",
+  "developer_name": "gbarre2",
+  "icon": "images/icon.png",
+  "options": {
+    "query_keyword": "term"
+  }
+}
