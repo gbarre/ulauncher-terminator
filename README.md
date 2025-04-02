@@ -10,29 +10,13 @@ specific folder.
 
 ## Installation
 
-1. Clone this repository:
-
-  ```bash
-   git clone https://github.com/your-repo/ulauncher-terminator.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd ulauncher-terminator
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Link the extension to Ulauncher:
-
-   ```bash
-   ln -s $(pwd) ~/.local/share/ulauncher/extensions/ulauncher-terminator
-   ```
+- Open Ulauncher
+- Settings
+- Extensions
+- Add extension
+- Paste the link to this repository
+  "[https://github.com/berti92/ulauncher-redmine-extension](https://github.com/gbarre/ulauncher-terminator)"
+- Press "Add"
 
 ## Usage
 
@@ -56,5 +40,5 @@ To contribute or modify the extension:
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 or later.  
+This project is licensed under the GNU General Public License v3.0 or later.
 See the [LICENSE](LICENSE) file for more details.
